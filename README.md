@@ -1,46 +1,22 @@
-Bluetooth Shield V2.0 Demo Code
----------------------------------------------------------
-![Bluetooth Shield](https://statics3.seeedstudio.com/images/113030019%201.jpg)
+Bluetooth-Modul
+----
+*(Seeed Studio Grove – Serial Bluetooth V3.0)*
 
-[Bluetooth Shield V2](https://www.seeedstudio.com/Bluetooth-Shield-V2-p-2416.html)
+<img src=https://www.makeyourschool.de/wp-content/uploads/2018/10/53_bluetooth-modul-1024x1024.jpg width=400px>
 
-The Bluetooth Shield integrates a Serial Bluetooth module. It can be easily used with Arduino/Seeedstudio for transparent wireless serial communication. You can choose two pins from Arduino D0 to D7 as Software Serial Ports to communicate with Bluetooth Shield (D0 and D1 is Hardware Serial Port). The shield also has two Grove connectors (one is Digital, the other is Analog) for you to install Grove modules.
-
-Specifications:
-
-- Features
-- Seeeduino/Arduino compatible
-- Up to10m communication distance in house without obstacle
-- UART interface (TTL) with programmable baud rate (SPP firmware installed)
-- Default baud rate: 9600, data bits: 8, stop bit: 1, Parity: No parity
-- Default PINCODE:”0000”
-- A full set of configuration commands
-- On board PCB antenna
-- FCC ID certificated
-
-
-### Usage:
-
-This code include some examples which can show you how to use the Bluetooth Shield V2.0. 
-
-For more information, please refer to [wiki page](http://wiki.seeedstudio.com/Bluetooth_Shield_V2/).
+Das Bluetooth-Modul ermöglicht es Informationen, Befehle und Daten kabellos zwischen mehreren Endgeräten oder Mikrocontrollern zu übertragen. So können beispielsweise zwei Arduinos untereinander oder auch ein Arduino mit einem Smartphone kommunizieren. Damit das funktioniert, wird auf dem Smartphone ein Terminal benötigt, über das Befehle empfangen und gesendet werden können. Ein Beispiel-Link zu einem solchen Terminal findet ihr unter „Wichtige Links“. Das Bluetooth-Modul lässt sich direkt oder mithilfe des Grove Shields an einen Arduino oder Raspberry Pi über die serielle Schnittstelle UART  anschließen und zusätzlich über bestimmte Befehle programmieren. So kann beispielsweise ein Bluetooth-Pin oder der angezeigte Bluetooth-Name eingestellt werden.
 
 ----
 
+In diesem Repository findet ihr **Bibliotheken und Beispiel-Codes**, mit denen der hier vorliegende Sensor getestet werden kann. Wir richten uns hiermit an **jeden Mentor und jede Mentorin aus dem Rahmen von Make Your School** und ermutigen euch, die hier zusammengestellten Codes **nach Bedarf** und individuell gemachten Erfahrungen **anzupassen**. Beispiele können einfach im Ordner /examples hinzugefügt oder angepasst werden. Wir versuchen das Repository regelmäßig mit Hilfe von euren Änderungsvorschlägen zu aktualisieren.
 
-This software is written by loovee [luweicong@seeedstudio.com](luweicong@seeedstudio.com "luweicong@seeedstudio.com") for seeed studio<br>
-and is licensed under [The MIT License](http://opensource.org/licenses/mit-license.php). Check License.txt for more information.<br>
+Das Repository basiert grundlegend auf den veröffentlichten Informationen und Codes von Seeed Studio. 
+Die deutsche Übersetzung stammt von [Make Your School](https://www.makeyourschool.de/). Fehlinterpretationen und Änderungen vorbehalten. Die Informationen dürfen frei genutzt, angepasst und verbreitet werden, solange die Lizenzrechte (siehe License.txt) beachtet werden.
 
-Contributing to this software is warmly welcomed. You can do this basically by<br>
-[forking](https://help.github.com/articles/fork-a-repo), committing modifications and then [pulling requests](https://help.github.com/articles/using-pull-requests) (follow the links above<br>
-for operating guide). Adding change log and your contact into file header is encouraged.<br>
-Thanks for your contribution.
+**Weitere Informationen:**
 
+[Repository von Seed Studio](https://github.com/Seeed-Studio/)
 
+[Offizielles Wiki von Seed Studio](http://wiki.seeedstudio.com/Grove/)
 
-Seeed is a hardware innovation platform for makers to grow inspirations into differentiating products. By working closely with technology providers of all scale, Seeed provides accessible technologies with quality, speed and supply chain knowledge. When prototypes are ready to iterate, Seeed helps productize 1 to 1,000 pcs using in-house engineering, supply chain management and agile manufacture forces. Seeed also team up with incubators, Chinese tech ecosystem, investors and distribution channels to portal Maker startups beyond.
-
-
-
-
-[![Analytics](https://ga-beacon.appspot.com/UA-46589105-3/Bluetooth_Shield_Demo_Code)](https://github.com/igrigorik/ga-beacon)
+[Materialkoffer von Make Your School](https://www.makeyourschool.de/material/)
